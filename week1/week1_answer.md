@@ -34,17 +34,17 @@ print(value)
 
 ```python
 # while이나 for 반복문을 사용하는 것도 좋음
-number = int(input(""))
+number = int(input(''))
 
-print(number, "_ 1 =", number _ 1)
-print(number, "_ 2 =", number _ 2)
-print(number, "_ 3 =", number _ 3)
-print(number, "_ 4 =", number _ 4)
-print(number, "_ 5 =", number _ 5)
-print(number, "_ 6 =", number _ 6)
-print(number, "_ 7 =", number _ 7)
-print(number, "_ 8 =", number _ 8)
-print(number, "_ 9 =", number _ 9)
+print(number, '* 1 =', number * 1)
+print(number, '* 2 =', number * 2)
+print(number, '* 3 =', number * 3)
+print(number, '* 4 =', number * 4)
+print(number, '* 5 =', number * 5)
+print(number, '* 6 =', number * 6)
+print(number, '* 7 =', number * 7)
+print(number, '* 8 =', number * 8)
+print(number, '* 9 =', number * 9)
 ```
 
 # 1-3
@@ -54,11 +54,11 @@ print(number, "_ 9 =", number _ 9)
 # randint로 리스트 원소를 고른 것도 나쁘지 않음
 import random
 
-fruit_list = ["사과", "바나나", "포도", "오렌지", "키위"]
+fruit_list = ['사과', '바나나', '포도', '오렌지', '키위']
 
 random_fruit = random.choice(fruit_list)
 
-print(f"오늘의 과일은 {random_fruit}입니다")
+print(f'오늘의 과일은 {random_fruit}입니다')
 ```
 
 # 1-4
@@ -68,13 +68,13 @@ print(f"오늘의 과일은 {random_fruit}입니다")
 # join 은... 정도는 잘 찾아서 했을것이라고 믿음
 from random import randint
 
-site_url = input("")
+site_url = input('')
 
-site_url.replace("https://", "")
+site_url.replace('https://', '')
 
-site_url.replace(".com", "")
+site_url.replace('.com', '')
 
-domain = site_url.join("")
+domain = site_url.join('')
 
 print(domain)
 
@@ -84,6 +84,6 @@ len_of_word = len(sliced_domain)
 
 random_num = randint(1, 999)
 
-print(sliced_domain + str(len_of_word) + str(random_num) + "!")
+print(sliced_domain + str(len_of_word) + str(random_num) + '!')
 
 ```
